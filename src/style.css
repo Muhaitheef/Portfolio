@@ -283,7 +283,13 @@ button:focus {
 }
 /* Adjust the header name for smaller screens */
 @media (max-width: 767px) {
+  .heading-name::after {
+    content: "Muhaitheef."; /* Use an abbreviated version */
+  }
   .heading-name {
+    font-size: 1.8em !important;
+    content: "none"; /* Prevent duplication */
+  }
     font-size: 1.8em !important; /* Reduce the font size */
     word-wrap: break-word; /* Break long words */
     white-space: normal; /* Allow wrapping */
