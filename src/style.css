@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3em !important; /* Adjust as needed */
+  width: auto !important; /* Maintain aspect ratio */
 }
 
 .navbar-nav .nav-link {
@@ -270,14 +270,16 @@ button:focus {
   text-align: left;
 }
 
-.heading {
-  font-size: 2.4em !important;
-  padding-left: 50px !important;
-}
-
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 50px !important; /* Adjust this value */
+  text-align: center; /* Optional if you want to center align */
+}
+
+.heading {
+  font-size: 2.4em !important;
+  padding-left: 50px !important; /* Ensure consistency */
+  text-align: center; /* Optional if you want to center align */
 }
 
 .main-name {
@@ -408,8 +410,9 @@ button:focus {
   padding-bottom: 8px !important ;
 }
 .footer-copywright {
-  text-align: center !important;
+  white-space: nowrap !important; /* Prevent wrapping */
 }
+
 
 .footer-body {
   z-index: 1;
