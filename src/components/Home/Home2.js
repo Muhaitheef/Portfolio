@@ -93,7 +93,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:your-email@example.com"
+                  href="mailto:Mohaitheef@gmail.com"
                   className="icon-colour home-social-icons"
                 >
                   <MdEmail />
@@ -101,7 +101,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="tel:+123456789"
+                  href="+966550068333"
                   className="icon-colour home-social-icons"
                 >
                   <MdPhone />
