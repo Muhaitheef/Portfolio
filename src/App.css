@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 1rem;
 }
 
 .App-link {
@@ -34,5 +35,33 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(8px + 2vmin); /* Reduce font size on smaller screens */
+    padding: 1.5rem;
+  }
+
+  .App-logo {
+    height: 30vmin; /* Reduce the size of the logo */
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    font-size: calc(6px + 2vmin); /* Further reduce font size for very small screens */
+    flex-direction: column; /* Ensure proper alignment */
+    padding: 2rem;
+  }
+
+  .App-logo {
+    height: 25vmin; /* Smaller logo for very small screens */
+  }
+
+  .App-link {
+    font-size: 1rem; /* Adjust link font size */
   }
 }
