@@ -296,20 +296,35 @@ button:focus {
   color: #b562d6 !important;
 }
 
-@media (max-width: 767px) {
-  .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
-    position: absolute !important;
-  }
-  .Typewriter__cursor {
-    display: none !important;
-  }
+.Typewriter__wrapper {
+  font-size: 2.2em !important;
+  color: #be6adf !important;
+  font-weight: 600 !important;
+  text-align: center !important; /* Center horizontally */
+  display: inline-block;
+  margin: 0 auto; /* Center within parent container */
 }
 
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 1.4em !important; /* Adjust size for smaller screens */
+    font-weight: 500 !important;
+    text-align: center !important; /* Ensure it stays centered on mobile */
+  }
+}
 .myAvtar {
+  display: flex !important;
   justify-content: center !important;
+  align-items: center !important;
   padding-top: 9em !important;
+}
+
+@media (max-width: 767px) {
+  .myAvtar {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+    justify-content: center !important;
+  }
 }
 
 @media (max-width: 767px) {
