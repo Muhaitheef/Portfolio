@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail, MdPhone } from "react-icons/md";
 
 function Footer() {
   let date = new Date();
@@ -25,7 +26,7 @@ function Footer() {
               <a
                 href="https://github.com/Muhaitheef"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -35,7 +36,7 @@ function Footer() {
               <a
                 href="https://x.com/itisMohd"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -45,14 +46,31 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/muhaitheef/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
             <li className="social-icons">
-             
+              <a
+                href="mailto:Mohaitheef@gmail.om"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MdEmail />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="tel:+966550068333"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MdPhone />
+              </a>
             </li>
           </ul>
         </Col>
