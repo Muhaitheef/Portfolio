@@ -21,23 +21,13 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                <span>It's</span>
-                <br />
-                <strong className="main-name">Mohammed</strong>
-                <br />
-                <strong className="main-name">Al-Muhaitheef</strong>
+                I'M
+                <strong className="main-name"> MOHAMMED AL-MUHAITHEEF</strong>
               </h1>
 
-              <div
-                style={{
-                  padding: 50,
-                  textAlign: "center",
-                }}
-              >
-                <div className="typewriter-container">
-                  <Type />
-                </div>
-              </div>
+              <div style={{ padding: 50, textAlign: "center", marginLeft: "20px" }}>
+              <div className="typewriter-container"> <Type /> </div>
+</div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
