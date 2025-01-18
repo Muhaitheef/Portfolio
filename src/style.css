@@ -285,12 +285,13 @@ button:focus {
 @media (max-width: 767px) {
   .heading-name,
   .heading {
-    font-size: 1.8em !important; /* Reduce font size for iPhone screens */
-    text-align: center !important; /* Ensure it's centered */
-    white-space: nowrap !important; /* Prevent the text from wrapping */
-    overflow: hidden; /* Avoid overflow */
-    text-overflow: ellipsis; /* Gracefully handle any overflow */
-    margin: 0 auto !important; /* Center horizontally */
+    font-size: 1.8em !important; /* Adjust font size for better readability */
+    text-align: center !important; /* Center align the text */
+    line-height: 1.6 !important; /* Add spacing between lines */
+  }
+
+  .heading-name span {
+    display: block !important; /* Force each part to a new line */
   }
 }
 
