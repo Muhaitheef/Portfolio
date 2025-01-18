@@ -101,7 +101,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="+966550068333"
+                  href="tel:+966550068333"
                   className="icon-colour home-social-icons"
                 >
                   <MdPhone />
