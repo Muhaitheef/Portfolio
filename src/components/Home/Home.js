@@ -22,15 +22,16 @@ function Home() {
 
               <h1 className="heading-name">
                 <span>It's</span>
-                <span>Mohammed</span>
-                <span>Al-Muhaitheef</span>
+                <br />
+                <strong className="main-name">Mohammed</strong>
+                <br />
+                <strong className="main-name">Al-Muhaitheef</strong>
               </h1>
 
               <div
                 style={{
                   padding: 50,
                   textAlign: "center",
-                  marginLeft: "20px",
                 }}
               >
                 <div className="typewriter-container">
