@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail, MdPhone } from "react-icons/md";
 
 function Home2() {
   return (
@@ -19,57 +20,53 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I discovered my passion for programming early on and have enjoyed building innovative solutions ever since. 🤷‍♂️
+              I discovered my passion for programming early on and have enjoyed
+              building innovative solutions ever since. 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I am fluent in classics like{" "}
               <i>
-                <b className="purple"> C, Python, Javascript and Java. </b>
+                <b className="purple">C, Python, JavaScript, and Java.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My fields of interest include building new{" "}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Innovation.
-                </b>
+                <b className="purple">Web Technologies and Products</b> and
+                exploring areas related to{" "}
+                <b className="purple">Innovation.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for
-              <b className="purple">Innovation</b> and
-              <b className="purple">Product Growth</b>,
-              along with developing impactful solutions using
+              Whenever possible, I apply my passion for{" "}
+              <b className="purple">Innovation</b> and{" "}
+              <b className="purple">Product Growth</b>, along with developing
+              impactful solutions using{" "}
               <i>
-                <b className="purple"> Modern Tools and Frameworks </b>
-              </i>
-              like
+                <b className="purple">Modern Tools and Frameworks</b>
+              </i>{" "}
+              such as{" "}
               <i>
-                <b className="purple"> Design thinking, Flutter, and Python.</b>
-
+                <b className="purple">Design Thinking, Flutter, and Python.</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-            
-
-<img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-           
-                       <ul className="home-about-social-links">
+            <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/Muhaitheef"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -79,7 +76,7 @@ function Home2() {
                   href="https://x.com/itisMohd"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -89,7 +86,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/muhaitheef/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -97,7 +94,7 @@ function Home2() {
               <li className="social-icons">
                 <a
                   href="mailto:your-email@example.com"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <MdEmail />
                 </a>
@@ -105,7 +102,7 @@ function Home2() {
               <li className="social-icons">
                 <a
                   href="tel:+123456789"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <MdPhone />
                 </a>
@@ -117,4 +114,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
